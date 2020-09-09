@@ -1117,7 +1117,7 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  overlay {
+  .overlay {
     height: 600px;
   }
 }
