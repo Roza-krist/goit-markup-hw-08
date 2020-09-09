@@ -8,7 +8,6 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   text-align: center;
-  height: 600px;
   padding-top: 200px;
   background-image: linear-gradient(to right, $text-bg-color, $text-bg-color),
     url(../images/header/header-mob.jpg);
@@ -35,6 +34,7 @@
   }
 
   @media screen and (min-width: $desktop) {
+    height: 600px;
     background-image: linear-gradient($text-bg-color, $text-bg-color),
       url("../images/header/header-img.jpg");
     @media screen and (min-device-pixel-ratio: 2),

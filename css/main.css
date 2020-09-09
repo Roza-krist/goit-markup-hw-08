@@ -1073,7 +1073,6 @@ img {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   text-align: center;
-  height: 600px;
   padding-top: 200px;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header/header-mob.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/header-mob.jpg);
@@ -1105,6 +1104,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .overlay {
+    height: 600px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/header/header-img.jpg");
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header/header-img.jpg");
   }
