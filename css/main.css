@@ -1066,11 +1066,6 @@ img {
 .overlay {
   height: 400px;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header/header-mob.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/header-mob.jpg);
-  -webkit-box-shadow: rgba(47, 48, 58, 0.4);
-          box-shadow: rgba(47, 48, 58, 0.4);
-  background-color: #ffffff;
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
@@ -1078,6 +1073,13 @@ img {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   text-align: center;
+  height: 600px;
+  padding-top: 200px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header/header-mob.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/header-mob.jpg);
+  -webkit-box-shadow: rgba(47, 48, 58, 0.4);
+          box-shadow: rgba(47, 48, 58, 0.4);
+  background-color: #ffffff;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
@@ -1105,8 +1107,6 @@ img {
   .overlay {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/header/header-img.jpg");
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header/header-img.jpg");
-    height: 600px;
-    padding-top: 200px;
   }
 }
 
