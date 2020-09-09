@@ -1,6 +1,15 @@
 .overlay {
   height: 400px;
   width: 100%;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  text-align: center;
+  height: 600px;
+  padding-top: 200px;
   background-image: linear-gradient(to right, $text-bg-color, $text-bg-color),
     url(../images/header/header-mob.jpg);
   //background-position: center;
@@ -34,17 +43,7 @@
       background-image: linear-gradient($text-bg-color, $text-bg-color),
         url("../images/header/header-desk-img@2x.jpg");
     }
-
-    height: 600px;
-    padding-top: 200px;
   }
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  text-align: center;
 }
 .hero {
   padding: 120px 0;
