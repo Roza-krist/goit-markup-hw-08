@@ -34,7 +34,6 @@
   }
 
   @media screen and (min-width: $desktop) {
-    height: 600px;
     background-image: linear-gradient($text-bg-color, $text-bg-color),
       url("../images/header/header-img.jpg");
     @media screen and (min-device-pixel-ratio: 2),
@@ -43,6 +42,11 @@
       background-image: linear-gradient($text-bg-color, $text-bg-color),
         url("../images/header/header-desk-img@2x.jpg");
     }
+  }
+}
+overlay {
+  @media screen and (min-width: $desktop) {
+    height: 600px;
   }
 }
 .hero {
