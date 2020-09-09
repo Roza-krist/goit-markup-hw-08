@@ -1,0 +1,36 @@
+.logo-web {
+  color: $accent-color;
+  text-decoration-line: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 19;
+}
+.logo {
+  color: $primary-text-color;
+  text-decoration-line: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1, 16;
+  display: inline-block;
+  margin: 16px 15px auto;
+
+  @media screen and(max-width: $tablet -1px) {
+    margin: 16px 15px auto;
+  }
+
+  @media screen and(min-width: $tablet) {
+    margin: 26px 40px 26px 0;
+  }
+  @include for-size($desktop) {
+    margin-right: 85px;
+    font-size: 26px;
+    line-height: 1, 19;
+  }
+  @media screen and(min-width: $desktop) {
+    margin: 24px 93px 25px 0px;
+  }
+}

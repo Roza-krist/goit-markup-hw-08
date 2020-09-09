@@ -1,0 +1,77 @@
+.benefits-title::before {
+  content: "";
+  height: 120px;
+  background-position: center;
+  margin-bottom: 30px;
+  display: block;
+  background-color: $secondary-bg-color;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.detail::before {
+  background-image: url(../images/antenna-1.svg);
+  background-size: 70px;
+}
+.punctual::before {
+  background-image: url(../images/clock-2.svg);
+  background-size: 70px;
+}
+.plan::before {
+  background-image: url(../images/diagram-3.svg);
+  background-size: 70px;
+}
+.techno::before {
+  background-image: url(../images/astronaut-4.svg);
+  background-size: 70px;
+}
+.benefits-title {
+  @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
+    & {
+      width: calc((100% - 30px) / 2);
+    }
+
+    &:not(:nth-last-child(-n + 2)) {
+      margin-bottom: 30px;
+    }
+    &:not(:nth-child(2n)) {
+      margin-right: 30px;
+    }
+  }
+}
+@media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
+  .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and(min-width: $desktop) {
+  .benefits-list {
+    display: inline-flex;
+  }
+
+  .benefits-title {
+    width: calc((100% - 90px) / 4);
+    margin-right: 30px;
+    display: list-item;
+
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
+}
+.section-title {
+  color: $primary-text-color;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.section-subtitle {
+  color: $subtitle-text-color;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+}
