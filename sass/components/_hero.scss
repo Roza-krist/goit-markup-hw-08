@@ -19,28 +19,28 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     background-image: linear-gradient($text-bg-color, $text-bg-color),
-      url("../images/header/header-mob-img@2x.jpg");
+      url(../images/header/header-mob-img@2x.jpg);
   }
 
   @media screen and (min-width: $tablet) {
     background-image: linear-gradient($text-bg-color, $text-bg-color),
-      url("../images/header/header-tab.jpg");
+      url(../images/header/header-tab.jpg);
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: linear-gradient($text-bg-color, $text-bg-color),
-        url("../images/header/header-tab-img@2x.jpg");
+        url(../images/header/header-tab-img@2x.jpg);
     }
   }
 
   @media screen and (min-width: $desktop) {
     background-image: linear-gradient($text-bg-color, $text-bg-color),
-      url("../images/header/header-img.jpg");
+      url(../images/header/header-img.jpg);
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: linear-gradient($text-bg-color, $text-bg-color),
-        url("../images/header/header-desk-img@2x.jpg");
+        url(../images/header/header-desk-img@2x.jpg);
     }
   }
 }
